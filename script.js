@@ -131,7 +131,7 @@ function showRandomQuote() {
 }
 
 // Show a new random quote every 5 seconds
-setInterval(showRandomQuote, 5000);
+setInterval(showRandomQuote, 3000);
 
 // Initial quote display when the page loads
 showRandomQuote();
