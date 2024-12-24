@@ -127,11 +127,11 @@ function showRandomQuote() {
   // Hide the quote after 3 seconds by fading out
   setTimeout(() => {
       quoteContainer.style.opacity = '0'; // Fade-out effect
-  }, 5000); // The quote disappears after 3 seconds
+  }, 3000); // The quote disappears after 3 seconds
 }
 
 // Show a new random quote every 5 seconds
-setInterval(showRandomQuote, 3000);
+setInterval(showRandomQuote, 5000);
 
 // Initial quote display when the page loads
 showRandomQuote();
